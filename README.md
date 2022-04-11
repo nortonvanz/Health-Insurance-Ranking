@@ -89,7 +89,8 @@ Minha estrat√©gia para resolver esse desafio, baseado na metodologia CRISP-DS, √
 - Selecionar apenas os melhores atributos para treinar os modelos de machine learning.  
 
 **Step 07. Machine Learning Modelling:**
-- Rodar algoritmos: knn classifier, logistic regression, extra trees classifier, e xgboost classifier.
+- Rodar algoritmos: KNN classifier, Logistic regression, ExtraTrees classifier, e XGBboost classifier.
+
 - Plotar curva de ganho cumulativo e lift, e calcular precison@k/recall@k de cada modelo.
 - Criar tabela de performance comparando precison@k/recall@k de cada modelo.
 
