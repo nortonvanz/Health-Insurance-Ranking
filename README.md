@@ -1,4 +1,4 @@
-# Health-Insurance-Ranking
+# Health Insurance Cross-Sell Prediction
 
 <img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/insurance_recommendation.jpeg?raw=true" width=70% height=70% title="Health-Insurance-Ranking" alt="project_cover_image"/>
 
