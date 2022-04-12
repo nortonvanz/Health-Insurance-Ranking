@@ -123,7 +123,7 @@ Insights são informações novas, ou que contrapõe crenças até então estabe
 
 #### H1 - O interesse é maior em clientes com idade maior.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h1_age.png" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h1_age.png?raw=true" alt="h1_validacao" title="Interesse vs Idade" align="center" height="380" class="center"/>
 
 Hipótese falsa. Pode ser observado que clientes entre 40-45 anos são os mais interessados em seguro veicular.
 
@@ -131,7 +131,7 @@ Hipótese falsa. Pode ser observado que clientes entre 40-45 anos são os mais i
 
 #### H2 - O interesse é maior em clientes que possuem veículos mais novos.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h2_vehicle_age.png" alt="h2_validacao" title="Interesse vs Idade do Veículo" align="center" height="380" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h2_vehicle_age.png?raw=true" alt="h2_validacao" title="Interesse vs Idade do Veículo" align="center" height="380" class="center"/>
 
 Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro veicular:
 - 4% dos clientes com veículos abaixo de 1 ano possuem interesse.
@@ -142,7 +142,7 @@ Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro ve
 
 #### 3 O interesse é maior em clientes que possuíam seu veículo previamente segurado.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h3_prev_insured.png" alt="h3_validacao" title="Interesse vs Segudo Prévio" align="center" height="380" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h3_prev_insured.png?raw=true" alt="h3_validacao" title="Interesse vs Segudo Prévio" align="center" height="380" class="center"/>
 
 Hipótese falsa. 22% dos clientes que não possuíam veículo previamente segurado estão interessados em seguro de veículo, enquanto apenas 1% dos clientes que possuíam seguro tem interesse.
 
@@ -157,14 +157,14 @@ Pro fim, o modelo de base é também exibido, representando a lista aleatória d
 Curva de Ganhos Acumulados: ordenada por probabilidade de compra, cruza o percentual da base de clientes com o percentual de clientes propensos a comprar.
 Ex: 40% da base de clientes (x), ordenada pela probabilidade de compra (y), contém 80% de todos os interessados em seguro veicular.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gains_curve_final%20.png" alt="curva ganho final" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="500" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gains_curve_final%20.png?raw=true" alt="curva ganho final" title="Curva de Ganhos Acumulados - Comparação dos modelos" align="center" height="500" class="center"/>
 
 Na curva lift abaixo, os 4 modelos somados ao modelo perfeito e o baseline também são exibidos.
 
 Lift Curve: representa a diferença entre a curva de ganho e a lista aleatória. Portanto, informa o quanto o modelo é melhor que lista aleatória.
 Ex: Abrangendo 40% da lista ordenada, o modelo é 2,2 vezes melhor que a lista aleatória.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/lift_curves_final.png" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="500" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/lift_curves_final.png?raw=true" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="500" class="center"/>
 
 Nas tabelas abaixo, precision@k e recall@k são exibidas para os diferentes modelos selecionados.
 
@@ -172,7 +172,7 @@ Precision@k: conta quantas previsões foram corretas até k e divide por todas a
 
 Ex: Precisão top 40% (ou 12196) k = 0,25 - Significa que em 40% da base, o modelo acertou 25% em relação ao modelo perfeito, que acertaria 60% no top 40%, sendo que depois de 12%, já capturou todos os interessados, e passaria a capturar apenas não interessados.
 
-|<img width=30/> Precision@|K-nearest neighbors|Logistic regression |Extra Trees classifier |Xgboost classifier |Perfect model |
+|Precision@|K-nearest neighbors|Logistic regression |Extra Trees classifier |Xgboost classifier |Perfect model |
 |----------------|:----------:|:-------------------:|:---------------------------------:|:------------------:|:-------------:|
 | 10% (3049) | 0.32 | 0.29 | 0.37 | 0.39 | 1 |
 | 20% (6098) | 0.30 | 0.29 | 0.35 | 0.35 | 0.61 |
@@ -183,7 +183,7 @@ Recall@k: conta quantas previsões foram corretas até k e divide por todos os e
 
 Ex: Recall top 40% (ou 12196) k = 0,8 - Significa que 80% do total de clientes interessados aparecem nos top 40% resultados da lista ordenada.
 
-|<img width=75/> Recall@|K-nearest neighbors|Logistic regression |Extra Trees classifier |Xgboost classifier |Perfect model |
+|Recall@|K-nearest neighbors|Logistic regression |Extra Trees classifier |Xgboost classifier |Perfect model |
 |----------------|:------------------:|:-----------------------:|:-----------------------:|:----------------:|:-------------:|
 | 10% (3049) | 0.26 | 0.24 | 0.30 | 0.32 | 0.82 |
 | 20% (6098) | 0.49 | 0.47 | 0.56 | 0.57 | 1.00 |
@@ -197,7 +197,7 @@ Com o uso dos dados de teste (dados inéditos), é feita a simulação de perfor
 
 As curvas de ganho cumulativo e lift dos dados de teste são apresentadas abaixo.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gain_lift_test_final.png" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="700" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gain_lift_test_final.png?raw=true" alt="curva lift final" title="Curva Lift - Comparação dos modelos" align="center" height="700" class="center"/>
 
 Na sequência, as duas tabelas demonstram os valores de precision@k e recall@k do XGBoost.
 
@@ -210,7 +210,7 @@ Na sequência, as duas tabelas demonstram os valores de precision@k e recall@k d
 | 30% | 0.32 | 0.32 |
 | 40% | 0.28 | 0.28 |
 
-|Recall@ <img width=20/> |Xgboost classifier (train)|Xgboost classifier (test)
+|Recall@|Xgboost classifier (train)|Xgboost classifier (test)
 |----------------|:---------------:|:------------------:|
 | 10% | 0.32 | 0.31 |
 | 20% | 0.57 | 0.56 |
@@ -231,7 +231,7 @@ As questões de negócios abaixo serão respondidas com base nas premissas citad
 
 ### Qual a porcentagem de clientes interessados em seguro veicular, o call center conseguirá contatar fazendo 20 mil ligações?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/20k_calls_results.png" alt="20 k calls" title="Resultados com 20 mil ligações" align="center" height="700" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/20k_calls_results.png?raw=true" alt="20 k calls" title="Resultados com 20 mil ligações" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
  - A equipe de vendas contata 26% dos interessados em seguro veicular: 2.451 clientes (ver Ganho: cruzamento linha preta x verde).
@@ -247,7 +247,7 @@ Portanto, a receita estimada é 2,68 vezes maior que a lista aleatória: US$ 130
 
 ### Se a capacidade do call center aumentar para 40 mil ligações, qual a porcentagem de clientes interessados em adquirir um seguro veicular o call center conseguirá contatar?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/40k_calls_results.png" alt="40 k calls" title="Resultados com 40 mil ligações" align="center" height="700" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/40k_calls_results.png?raw=true" alt="40 k calls" title="Resultados com 40 mil ligações" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
   - A equipe de vendas contata 52% dos interessados em seguro veicular: 4902 clientes (ver Ganho: cruzamento linha preta x verde).
@@ -263,7 +263,7 @@ Portanto, a receita estimada é 1,9 vezes maior que a lista aleatória: US$ 139 
 
 ### Quantas ligações o call center precisa fazer para contatar 80% dos clientes interessados em adquirir um seguro veicular?
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/80perc_cust_results.png" alt="80% interessados" title="Resultados com 80% dos interessados" align="center" height="700" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/80perc_cust_results.png?raw=true" alt="80% interessados" title="Resultados com 80% dos interessados" align="center" height="700" class="center"/>
 
 Pela lista aleatória:
   - A equipe de vendas precisa fazer 60.976 ligações, para entrar em contato com 80% dos clientes da lista, então atingirá 80% dos interessados em seguro veicular.
@@ -276,7 +276,7 @@ RESULTADO: Fazendo 23800 ligações, o modelo é 2,6 vezes melhor que a lista al
 
 ### Planilha funcional em Google Sheets
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gif_800.gif" alt="gif planilha GSheets" title="Google Sheets - Demontração da solução" align="center" height="600" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gif_800.gif?raw=true" alt="gif planilha GSheets" title="Google Sheets - Demontração da solução" align="center" height="600" class="center"/>
 
 Acesso a planilha: [Google Sheets - Health Insurance Ranking](https://docs.google.com/spreadsheets/d/1GM-Ul_8zbroP7pNapIoZuXfV3NJNghgihs9lYQiDqPI/edit#gid=0)
 
