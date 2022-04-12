@@ -276,7 +276,7 @@ RESULTADO: Fazendo 23800 ligações, o modelo é 2,6 vezes melhor que a lista al
 
 ### Planilha funcional em Google Sheets
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/gif_800.gif?raw=true" alt="gif planilha GSheets" title="Google Sheets - Demontração da solução" align="center" height="600" class="center"/>
+<img src="/images/gif_800.gif" alt="cumulative gains curve and lift curve" title="Demontração da solução" align="center" height="600" class="center"/>
 
 Acesso a planilha: [Google Sheets - Health Insurance Ranking](https://docs.google.com/spreadsheets/d/1GM-Ul_8zbroP7pNapIoZuXfV3NJNghgihs9lYQiDqPI/edit#gid=0)
 
