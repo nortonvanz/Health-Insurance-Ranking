@@ -13,10 +13,10 @@ postgre_credentials.py
 
 # C extensions
 *.so
-*.pkl
+# *.pkl
 
 # Data
-*.csv
+# *.csv
 
 # Distribution / packaging
 .Python
