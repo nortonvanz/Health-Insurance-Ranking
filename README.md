@@ -19,7 +19,7 @@ O call center já bastante atarefado, tem capacidade de contatar apenas 20 mil d
 Logo, precisa de uma lista ordenada por interesse destes 76 mil clientes, a fim de otimizar a conversão e o faturamento da empresa.
 
 ### 1.2 Objetivo
-A partir dos dados de interesse em seguro veicular dos 304 mil clientes, construtir um ranking por ordem de interesse (propensão de compra) dos 76 mil potenciais clientes.
+A partir dos dados de interesse em seguro veicular dos 304 mil clientes, construir um ranking por ordem de interesse (propensão de compra) dos 76 mil potenciais clientes.
 
 As seguintes questões de negócio devem ser respondidas ao gestor do call center:
 
@@ -73,7 +73,7 @@ Minha estratégia para resolver esse desafio, baseado na metodologia CRISP-DS, �
 
 **Step 04. Exploratory Data Analysis:**
 - Realizar uma análise univariada com uso do SweetViz, avaliando detalhes de cada atributo.
-- Realizar uma análise bivariada, validando as hipótestes criadas e gerando insights de negócio.
+- Realizar uma análise bivariada, validando as hipóteses criadas e gerando insights de negócio.
 - Criar tabela de resultados das hipóteses, e relevância estimada dos atributos para o aprendizado dos modelos.
 
 **Step 05. Data Preparation:**
@@ -90,7 +90,6 @@ Minha estratégia para resolver esse desafio, baseado na metodologia CRISP-DS, �
 
 **Step 07. Machine Learning Modelling:**
 - Rodar algoritmos: KNN classifier, Logistic regression, ExtraTrees classifier, e XGBboost classifier.
-
 - Plotar curva de ganho cumulativo e lift, e calcular precison@k/recall@k de cada modelo.
 - Criar tabela de performance comparando precison@k/recall@k de cada modelo.
 
@@ -105,7 +104,7 @@ Minha estratégia para resolver esse desafio, baseado na metodologia CRISP-DS, �
 
 **Step 09. Convert Model Performance to Business Values:**
 - Responder as questões de negócio do gestor ao call center.
-- Comprarar resultados da lista aleatória com a lista ordenada por propensão de compra.
+- Comparar resultados da lista aleatória com a lista ordenada por propensão de compra.
 - Traduzir a performance do modelo em resultados financeiros para a Insurance All.
 
 **Step 10. Deploy Modelo to Production:**
@@ -142,7 +141,7 @@ Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro ve
 
 #### 3 O interesse é maior em clientes que possuíam seu veículo previamente segurado.
 
-<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h3_prev_insured.png?raw=true" alt="h3_validacao" title="Interesse vs Segudo Prévio" align="center" height="380" class="center"/>
+<img src="https://github.com/nortonvanz/Health-Insurance-Ranking/blob/pa004_norton_vanz/images/h3_prev_insured.png?raw=true" alt="h3_validacao" title="Interesse vs Seguro Prévio" align="center" height="380" class="center"/>
 
 Hipótese falsa. 22% dos clientes que não possuíam veículo previamente segurado estão interessados em seguro de veículo, enquanto apenas 1% dos clientes que possuíam seguro tem interesse.
 
@@ -276,18 +275,18 @@ RESULTADO: Fazendo 23800 ligações, o modelo é 2,6 vezes melhor que a lista al
 
 ### Planilha funcional em Google Sheets
 
-<img src="/images/gif_800.gif" alt="cumulative gains curve and lift curve" title="Demontração da solução" align="center" height="600" class="center"/>
+<img src="/images/gif_800.gif" alt="cumulative gains curve and lift curve" title="Demonstração da solução" align="center" height="600" class="center"/>
 
 Acesso a planilha: [Google Sheets - Health Insurance Ranking](https://docs.google.com/spreadsheets/d/1GM-Ul_8zbroP7pNapIoZuXfV3NJNghgihs9lYQiDqPI/edit#gid=0)
 
 
 # 8. Conclusões
 
-Com base nos resultados de negócio, conclui-se que o objetivo do projeto foi acançado.
+Com base nos resultados de negócio, conclui-se que o objetivo do projeto foi alcançado.
 
 Com a solução de dados entregue, a Insurance All possui agora uma vantagem competitiva frente aos seus concorrentes, reduzindo o custo de aquisição de clientes, e aumentando o seu faturamento.
 
-Pelo fato da solução implementada via planilha poder ser utilizada para novos clientes que ainda nem foram consquistados, é esperado um incremento ainda maior no faturamento esperado.  
+Pelo fato da solução implementada via planilha poder ser utilizada para novos clientes que ainda nem foram conquistados, é esperado um incremento ainda maior no faturamento esperado.  
 
 É possível ainda aproveitar a solução para simular perfis de clientes, funcionalidade que é de grande valia para a empresa.
 
