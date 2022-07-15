@@ -7,7 +7,7 @@ Projeto de rankeamento de clientes interessados na aquisição de um seguro veic
 Contextualização:
 Os dados do projeto foram obtidos do Kaggle, do desafio "Health Insurance Cross Sell Prediction".
 
-O contexto de negócios é fictício, mas seu planejamento e desenvolvimento seguem todos os passos de um projeto real.
+Desta forma, o contexto de negócios é fictício, porém todo o planejamento e desenvolvimento da solução é implementado seguindo todos os passos de um projeto de mercado real.
 
 ## 1. Problema de negócios
 ### 1.1 Problema
@@ -137,7 +137,7 @@ Hipótese falsa. Quando mais velho o veículo, maior é o interesse em seguro ve
 - 17% dos clientes com veículos entre 1 e 2 anos possuem interesse.
 - 29% dos clientes com veículos com mais de 2 anos possuem interesse.
 
-* Insight de negócio: Buscar dados de acionamento de seguro por clientes com veículos mais velhos, a fim de validar esta possível correlação. Havendo correlação, avaliar necessidade de reajustes no preço dos seguro ofertados a estes clientes.
+* Insight de negócio: Buscar dados de acionamento de seguro por clientes com veículos mais velhos, a fim de validar esta possível correlação. Havendo correlação, avaliar necessidade de reajustes no preço dos seguros ofertados a estes clientes.
 
 #### 3 O interesse é maior em clientes que possuíam seu veículo previamente segurado.
 
